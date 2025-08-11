@@ -16,7 +16,7 @@ jobs:
     steps:
       # This step checks out a copy of your repository.
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v3
         with:
